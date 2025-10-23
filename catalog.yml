@@ -1,6 +1,6 @@
 version: 1.5
 unique_name: adventure-small-sml
 object_type: catalog
-label: Adventure Small SML
+label: Adventure Small SML ajay test
 aggressive_agg_promotion: false
 build_speculative_aggs: false
