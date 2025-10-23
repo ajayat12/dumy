@@ -1,0 +1,12 @@
+unique_name: PP_StandardMonth_IOC_TEST
+object_type: metric_calc
+label: PP_StandardMonth_IOC_TEST
+expression: |-
+  CASE WHEN ISEMPTY([Measures].[Internet Order Count]) THEN NULL
+  ELSE 
+    (ParallelPeriod(
+        [Date Custom].[StandardMonth].[Year], 1,
+        [Date Custom].[StandardMonth].CurrentMember
+      ), [Measures].[Internet Order Count])
+      END
+mdx_aggregate_function: COUNT

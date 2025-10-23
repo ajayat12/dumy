@@ -1,0 +1,13 @@
+unique_name: Test_Percentile_Sales
+object_type: metric
+label: Test Percentile Sales
+calculation_method: percentile
+compression: 1000
+column: salesamount_1
+dataset: Internet Sales
+percentile: 50
+named_quantiles: median
+description: >-
+  The median distance1 between a quote, counter, or trade level and the Final FVMP mid price,
+  calculated based on the bond's pricing convention and direction. This measures the typical
+  deviation of quotes/trades from Trumid's fair value model, less sensitive to outliers than average.

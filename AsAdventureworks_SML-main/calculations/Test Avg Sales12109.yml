@@ -1,0 +1,6 @@
+unique_name: Test Avg Sales12109
+object_type: metric_calc
+label: Test Avg Sales12109
+expression: ([Date Custom].[StandardMonth].CurrentMember,[Product].[Product Categories].[Category].&[4],[Measures].[Internet Sales Amount Local])/([Date Custom].[StandardMonth].CurrentMember,[Measures].[Internet Order Count])
+
+is_hidden: false
