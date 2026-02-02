@@ -2,5 +2,5 @@ unique_name: con1
 label: con1
 object_type: connection
 as_connection: Snowflake
-database: "QT"
-schema: "ADVENTUREWORKS2012"
+database: "DEMO"
+schema: "adventureworks2012"
