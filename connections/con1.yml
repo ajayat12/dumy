@@ -3,4 +3,4 @@ label: con1
 object_type: connection
 as_connection: Snowflake
 database: QT
-schema: demo2012
+schema: ADVENTUREWORKS2012
