@@ -2,5 +2,7 @@ version: 1.5
 unique_name: adventure-small-sml
 object_type: catalog
 label: Adventure Small SML ajay test demo hhh
-aggressive_agg_promotion: false
+aggressive_agg_promotion: true
 build_speculative_aggs: false
+aggregate_store:
+    as_connection: "preferredstore"
