@@ -281,6 +281,7 @@ metrics:
   - unique_name: Test Avg Sales12109
     folder: Tuple
 
+
 user_defined_aggregates:
 
   - unique_name: UDA_INTERNET_ORDER
@@ -343,6 +344,7 @@ drillthroughs:
         dimension: Reseller
     metrics:
       - Reseller Sales Amount Local
+
   - unique_name: ResellerProductDetails
     attributes:
       - name: List Price
