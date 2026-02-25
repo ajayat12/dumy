@@ -281,6 +281,20 @@ metrics:
   - unique_name: Test Avg Sales12109
     folder: Tuple
 
+user_defined_aggregates:
+
+  - unique_name: UDA_INTERNET_ORDER
+    label: UDA_INTERNET_ORDER
+    attributes:
+      - name: Order Number
+        dimension: Internet Sales Order Details
+      - name: Item Description
+        dimension: Internet Sales Order Details
+    metrics:
+      - Internet Sales Amount Local
+      - Order Quantity Long
+
+
 perspectives:
 
   - unique_name: ResellerPerspective
